@@ -1,0 +1,25 @@
+img{
+  height: 350px;
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 15px #333;
+}
+p{
+  background-color:rgba(255,255,255,.6);
+  width: 90%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: auto;
+  color: blue;
+}
+h1{
+  text-align: center;
+  color: rgba(0, 123, 255, .6);
+  background-color: #fff;
+  margin: 150px auto 80px;
+  padding: 10px 0px;
+  border: 1px solid ;
+
+}

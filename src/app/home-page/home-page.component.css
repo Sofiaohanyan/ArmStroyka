@@ -1,0 +1,52 @@
+.block{
+  background-image: url("/assets/buil/cost-img.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 100px auto;
+  padding: 100px 100px;
+}
+.contact1 fa-icon{
+  color:#364d79;
+}
+.col-md-8 .row div div{
+  background-color: rgba(255, 255, 255, .6);
+  border: 1px solid #333;
+  border-radius: 20px;
+
+}
+.col-md-4 div{
+  box-shadow: 2px 2px 15px grey;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: white;
+  text-align: center;
+}
+.col-md-4 img{
+  width: 80%;
+  height: 150px;
+  transition: 1s;
+}
+.col-md-4 ul li{
+  list-style-type: none;
+}
+.col-md-4 h1{
+  color:royalblue;
+  font-size: 25px;
+}
+.col-md-4:hover img{
+  transform:scale(1.2);
+}
+.block img{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+.block{
+  text-align: center;
+  margin: 100px auto;
+}
+.container .row{
+  align-items: baseline;
+}

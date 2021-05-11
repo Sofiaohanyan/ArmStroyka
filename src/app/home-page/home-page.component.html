@@ -1,0 +1,50 @@
+<app-about-page></app-about-page>
+<!--<div class="block container">-->
+  <!--<div class="row">-->
+    <!--<div class="col-md-8 offset-md-2">-->
+      <!--<div class="row">-->
+        <!--<div class="col-md-4">-->
+          <!--<div>-->
+            <!--<img src="/assets/buil/icon-why-4.png">-->
+            <!--<p>-->
+              <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+            <!--</p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-md-4">-->
+          <!--<div>-->
+            <!--<img src="/assets/buil/icon-why-3.png">-->
+            <!--<p>-->
+              <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+            <!--</p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-md-4">-->
+          <!--<div>-->
+            <!--<img src="/assets/buil/icon-why-2.png">-->
+            <!--<p>-->
+              <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+            <!--</p>-->
+          <!--</div>-->
+
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let p of product">
+      <div>
+        <h1>{{p.title}}</h1>
+        <img src="{{p.src}}" alt="{{p.title}}" class="img-fluid">
+        <ul class="text-left">
+          <li> <fa-icon [icon]="faArrowAltCircleRight"></fa-icon>Размер: <b>{{p.size}}</b></li>
+          <li> <fa-icon [icon]="faArrowAltCircleRight"></fa-icon> Цена: <b>{{p.price}}</b></li>
+          <li> <fa-icon [icon]="faArrowAltCircleRight"></fa-icon>Цена: <b>{{p.price1}}</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+

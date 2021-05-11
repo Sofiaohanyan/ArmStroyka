@@ -1,0 +1,13 @@
+h2{
+  margin: 150px 0px 80px;
+  text-align: center;
+  color: cornflowerblue;
+  border: 1px solid;
+  padding: 15px 0px;
+}
+.col-md-6 div img{
+  width: 95%;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px cornflowerblue;
+}

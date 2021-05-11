@@ -1,0 +1,124 @@
+.block{
+  /*height: 600px;*/
+  /*background-image: url("/assets/buil/bg.jpeg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: 100% 100%;*/
+  /*background-attachment: fixed;*/
+  /*padding: 30px 0px;*/
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  padding: 0px !important;
+}
+nav{
+  background-color: #fff;
+  padding: 0px;
+
+}
+nav a:hover{
+  color: white;
+}
+ul{
+  margin: 0px;
+}
+.nav-menu ul li{
+  color: #ffffff;
+  font-weight: bold;
+}
+.container{
+  padding: 0px;
+}
+.contact1{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 123, 255, .6);
+  box-sizing: border-box;
+
+
+}
+.contact1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact1 li{
+  border-right: 1px solid;
+  padding:10px 30px;
+  color: rgb(0, 123, 255);
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: bold;
+}
+.contact1 li a {
+  color: inherit;
+}
+.contact1 li:last-child{
+  border: none;
+}
+
+ .evelop-modal {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: cornflowerblue !important;
+  text-align: center;
+  line-height: 65px;
+  bottom: 60px;
+  right: 30px;
+  position: fixed;
+  cursor: pointer;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  transition: .8s;
+  z-index: 500;
+}
+ .contact div {
+  font-size: 25px;
+  color: #fff;
+  animation: .7s efec linear infinite;
+  display: none;
+}
+.contact div a{
+  text-decoration: none;
+}
+
+
+ .evelop-modal {
+  z-index: 501;
+}
+
+.contact:hover div {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-color: #333 !important;
+  display: block;
+}
+
+ .contact:hover .fb {
+  bottom: 100px;
+  right: 130px !important;
+}
+
+ .contact:hover .insta {
+  bottom: 20px;
+  right: 130px !important;
+}
+.contact:hover div{
+  animation-play-state: paused;
+}
+
+
+@keyframes efec {
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  from {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}

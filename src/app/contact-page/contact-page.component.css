@@ -1,0 +1,13 @@
+ul li{
+  list-style-type: none;
+  font-size: 25px;
+
+}
+.block{
+  background-image: url("/assets/buil/cost-img.png");
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 200px auto;
+  padding: 100px 100px;
+}
